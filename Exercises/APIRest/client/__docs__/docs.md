@@ -5,7 +5,7 @@ El punto de entrada de la aplicación se encuentra en el archivo `/src/app/index
 
 En el directorio `/src/app/store/products` se encuentra toda la lógica del funcionamiento.
 
-# Configuracion
+# Configuración
 En el directorio `/config` se encuentra el archivo de configuración.
 * Importante: En ese mismo archivo se configuran los datos de la api (puerto, servidor, protocolo, etc.).
 
@@ -15,5 +15,5 @@ En el directorio `/config` se encuentra el archivo de configuración.
 Se realizaron los test de manera conveniente separando la lógica del reducer, y del middleware
 que se encarga de los 'side-effects' (api calls).
 
-# Inicio de la aplicacion
+# Inicio de la aplicación
 `npm run dev` | `npm run prod`
