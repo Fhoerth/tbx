@@ -1,0 +1,24 @@
+{
+  "presets": [["es2015", {"modules": "commonjs"}], "stage-0", "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-async-to-generator",
+    "syntax-async-functions", [
+      "module-alias", [
+        { "src": "./src/app/common/store", "expose": "~store" },
+        { "src": "./src/app/common/locale", "expose": "~locale" },
+        { "src": "./src/app/common/apollo", "expose": "~apollo" },
+        { "src": "./src/app/common/graphql", "expose": "~graphql" },
+        { "src": "./src/app/common/utils", "expose": "~utils" },
+        { "src": "./src/lib", "expose": "~lib" },
+        { "src": "./config", "expose": "~config" }
+      ]
+    ],
+    "transform-runtime", [
+     "react-intl", {
+       "messagesDir": "./src/_i18n/build/messages",
+       "enforceDescriptions": false
+     }
+   ]
+  ]
+}

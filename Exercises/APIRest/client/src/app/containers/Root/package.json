@@ -1,0 +1,6 @@
+{
+  "name": "RootContainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Root.container.js"
+}

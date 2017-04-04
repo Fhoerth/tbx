@@ -1,0 +1,25 @@
+npm-debug.log
+cache/
+.cache/
+www/
+.www/
+engine/
+node_modules/
+platforms/
+plugins/
+build/
+resources/
+bower_components/
+www/
+dist/
+.happypack
+config.xml
+coverage
+# Logs
+logs
+*.log
+# Runtime data
+pids
+*.pid
+*.seed
+config.js

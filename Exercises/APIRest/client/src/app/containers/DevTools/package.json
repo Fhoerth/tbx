@@ -1,0 +1,6 @@
+{
+  "name": "DevToolsContainer",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DevTools.container.js"
+}

@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 27017,
+  "db": "products_api_rest",
+
+  "dev_host": "localhost",
+  "dev_port": 27017,
+  "dev_db": "products_api_rest",
+
+  "tests_host": "localhost",
+  "tests_port": 27017,
+  "tests_db": "products_api_rest_tests"
+}

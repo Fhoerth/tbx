@@ -1,0 +1,4 @@
+{
+  "presets": [["es2015", {"modules": "commonjs"}], "stage-0"],
+  "plugins": ["transform-regenerator", "transform-async-to-generator", "syntax-async-functions"]
+}
